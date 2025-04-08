@@ -1,0 +1,940 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(bg2.jpg);
+	font-family: sans-serif;
+	
+}
+
+
+
+label {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 280px;
+	height: 350px;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.flip-card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card .front,
+.flip-card .back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card .back {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card2 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card2 .front2,
+.flip-card2 .back2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card2 .back2 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card2 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card2 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card3 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card3 .front3,
+.flip-card3 .back3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card3 .back3 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card3 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card3 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+.flip-card4 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card4 .front4,
+.flip-card4 .back4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card4 .back4 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card4 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card4 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+.flip-card5 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card5 .front5,
+.flip-card5 .back5 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card5 .back5 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card5 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card5 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+.flip-card6 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card6 .front6,
+.flip-card6 .back6 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card6 .back6 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card6 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card6 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+.flip-card7 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card7 .front7,
+.flip-card7 .back7 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card7 .back7 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card7 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card7 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card8 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card8 .front8,
+.flip-card8 .back8 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card8 .back8 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card8 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card8 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+.flip-card9 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card9 .front9,
+.flip-card9 .back9 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card9 .back9 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card9 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card9 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+.flip-card10 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card10 .front10,
+.flip-card10 .back10 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card10 .back10 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card10 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card10 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.flip-card11 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card11 .front11,
+.flip-card11 .back11 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card11 .back11 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card11 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card11 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+.flip-card12 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card12 .front12,
+.flip-card12 .back12 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card12 .back12 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card12 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card12 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card13 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card13 .front13,
+.flip-card13 .back13 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card13 .back13 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card13 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card13 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+.flip-card14 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card14 .front14,
+.flip-card14 .back14 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card14 .back14 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card14 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card14 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+.flip-card15 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card15 .front15,
+.flip-card15 .back15 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card15 .back15 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card15 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card15 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.flip-card16 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card16 .front16,
+.flip-card16 .back16 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card16 .back16 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card16 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card16 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.flip-card17 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card17 .front17,
+.flip-card17 .back17 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card17 .back17 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card17 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card17 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+.flip-card18 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.flip-card18 .front18,
+.flip-card18 .back18 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	backface-visibility: hidden;
+	border-radius: 0 20px 0 20px;
+	background-image: url(log.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+
+.flip-card18 .back18 {
+	transform: rotateX(180deg);
+	color: #000;
+	background: #fff;
+}
+
+
+
+input {
+	display: none;
+}
+
+:checked + .flip-card18 {
+	transform: rotateX(180deg);
+}
+label:hover :checked + .flip-card18 {
+	transform: rotateX(175deg);
+	box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
